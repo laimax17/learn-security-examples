@@ -1,0 +1,9 @@
+Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+encrypting the data such that people that doesnt have access will not 
+understand the data. use hashcode to encrypt data
+led to loss of integrity.
+
+Which CIA property does tampering violate?
+
+Integrity

@@ -1,1 +1,12 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Vulnerability is to let the system believe that the hacker is trusted.
+
+To advoid, we can setup authentication mechanisms for secure preventing, 
+like certificate.
+make sure that the information from the cookie can only send 
+to the server. and information is encrypted
+
+- Which CIA property does tampering violate?
+
+Confidentiality

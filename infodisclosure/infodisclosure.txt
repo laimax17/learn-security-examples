@@ -1,3 +1,13 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+People get to see the sensitive information, for exmaple when storing the information.
+lead to leak of sensitive information like passwords
+
 Which CIA property does tampering violate?
+
+Availability
+
 What additional security mechanisms can you incorporate?
+
+
+add security for accessing
