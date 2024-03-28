@@ -1,2 +1,11 @@
-- Briefly explain the vulnerability and why the secure version is better at preventing repudiation than the insecure version.
+
+- Briefly explain the vulnerability and why the secure version is better 
+at preventing repudiation than the insecure version.
+ability of systems to hold people accountable to their actions.
+maintain a log file, with every interaction logged
+
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+store the data in database instead
+monitor the size of the logs
+look for suspicious item in logs

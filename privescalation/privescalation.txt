@@ -1,0 +1,13 @@
+- Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+There should have the session ID and userID can use to be hacker control, however is missing now. 
+We need to make sure the API sould be protected using 
+middleware(app.use). 
+The userID should be validated by session.
+check if userID is in the session and if the user is 
+allowed for access
+
+- What additional security mechanisms can you incorporate to prevent such attacks?
+secure the session more, the session id should not be spoof, 
+by setting cookie to httpOnly to true and sameSite to true.
+Dont rely only on the session, send additional token to 
+the client, then the client parse it.

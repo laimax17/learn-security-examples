@@ -1,2 +1,7 @@
 - Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+Attackers can prevent access to a service by overwhelming it with requests or by exploiting
+ a vulnerability to crash it.
+
 - What additional security mechanisms can you incorporate to prevent such attacks?
+using try catch
